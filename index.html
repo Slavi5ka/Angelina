@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="color-scheme" content="dark">
+<title>Ангелина мне стыдно</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;1,400;1,600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #5c0702;
+    --blush: #f6d3cf;
+    --cream: #ffe6e1;
+    --gold: #c9a15a;
+    color-scheme: dark;
+    box-sizing: border-box;
+    padding-top: env(safe-area-inset-top, 0px);
+    padding-bottom: env(safe-area-inset-bottom, 0px);
+  }
+  html { scroll-padding-top: env(safe-area-inset-top, 0px); }
+
+  *, *::before, *::after { box-sizing: border-box; }
+  body { margin: 0; }
+
+  body {
+    min-height: 100vh;
+    padding-bottom: 4rem;
+    overflow-x: hidden;
+    color: var(--blush);
+    font-family: "Lora", Georgia, "Times New Roman", serif;
+    font-size: 1.15rem;
+    line-height: 1.75;
+    background-color: var(--bg);
+    background-image: radial-gradient(ellipse at center, rgba(0, 0, 0, 0) 45%, rgba(0, 0, 0, .35) 100%);
+    background-attachment: fixed;
+  }
+
+  .hero {
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem 1.25rem;
+    text-align: center;
+  }
+
+  .hero h1 {
+    margin: 0;
+    font-size: clamp(2.6rem, 10vw, 6rem);
+    font-style: italic;
+    font-weight: 600;
+    line-height: 1.1;
+    color: var(--cream);
+    text-shadow: 0 0 18px rgba(224, 66, 95, .75), 0 0 60px rgba(224, 66, 95, .45);
+    animation: breathe 5s ease-in-out infinite;
+  }
+
+  @keyframes breathe {
+    0%, 100% { text-shadow: 0 0 12px rgba(224, 66, 95, .55), 0 0 40px rgba(224, 66, 95, .3); }
+    50%      { text-shadow: 0 0 22px rgba(224, 66, 95, .95), 0 0 80px rgba(224, 66, 95, .6); }
+  }
+
+  .story {
+    width: min(42rem, calc(100% - 2.5rem));
+    margin: 0 auto;
+    padding: 2.5rem clamp(1.25rem, 5vw, 3rem);
+    background: rgba(30, 2, 1, .55);
+    border: 1px solid rgba(201, 161, 90, .45);
+    border-radius: 2px;
+    -webkit-backdrop-filter: blur(6px);
+    backdrop-filter: blur(6px);
+    box-shadow: 0 0 0 6px rgba(20, 6, 10, .35), 0 20px 60px rgba(0, 0, 0, .5);
+  }
+
+  .story h2 {
+    margin: 0 0 1.25rem;
+    font-size: clamp(1.8rem, 6vw, 2.4rem);
+    font-style: italic;
+    font-weight: 600;
+    color: var(--cream);
+  }
+
+  /* ТВОЙ ТЕКСТ — вписывай внутрь этого блока. Новый абзац — новый <p>. */
+  .story-text { white-space: pre-wrap; }
+
+  @media (prefers-reduced-motion: reduce) {
+    .hero h1 { animation: none; }
+  }
+</style>
+</head>
+<body>
+
+  <header class="hero">
+    <h1>Ангелина мне стыдно</h1>
+  </header>
+
+  <main>
+    <section class="story">
+      <h2>Наши страсти</h2>
+      <div class="story-text">Мне нравится, когда ты выгибаешься, держишь сзади меня ногами, когда сую член ты говоришь, чтобы не останавливался, чтобы ебал, и т. д. Мне нравится, когда ты пристаешь, целуешь, возбуждаешь. Ещё когда я снизу, а ты сверху и вставляешь в себя сама член, когда прыгаешь задом ко мне, когда ебу тебя и ты смотришь на меня, когда ты говоришь мне напрямую, что хочешь, чтобы я тебя трахнул, и т. д. Когда скидываешь мне фотки, кружочки, видео в телеграм. Мне нравится, когда ты без носков, без лифчика и в тех лёгких шортах.
+
+Ну всё, хватит, мне и так уже ужасно стыдно.
+Люблю тебя.</div>
+    </section>
+  </main>
+
+</body>
+</html>
